@@ -7,9 +7,8 @@ namespace Persistence
     {
         public DataContext(DbContextOptions options) : base(options)
         {
-
         }
 
-        public DbSet<Activity> Activites { get; set; }
+        public DbSet<Activity> Activities { get; set; }
     }
 }
